@@ -15,6 +15,7 @@ class Account
   end
 
   def withdraw_money(amount)
+    raise('Insufficient funds') if @balance < amount
     @balance -= amount
     @list.add_transaction(Time.now.strftime('%D'), "debit", amount, @balance)
   end

@@ -22,6 +22,11 @@ describe Account do
   end
 
   it 'can have money withdrawn from it' do
+    account.deposit_money(amount)
     expect{account.withdraw_money(amount)}.to change { account.balance }.by(-amount)
+  end
+
+  it 'prevents withdrawal if the balance is insufficient' do
+    expect{ account.withdraw_money(arbitrary_number) }.to raise_error "Insufficient funds"
   end
 end
