@@ -1,8 +1,7 @@
 describe TransactionList do
-
   subject(:transactionList) { described_class.new }
   let(:date) { Time.now.strftime('%D') }
-  let(:method) { "credit" }
+  let(:method) { 'credit' }
   let(:amount) { 50 }
   let(:balance) { 100 }
 

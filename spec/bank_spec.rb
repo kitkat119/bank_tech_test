@@ -1,10 +1,8 @@
 describe Bank do
-
-  subject(:bank) { described_class.new() }
-  let(:name) { "Joe Bloggs" }
-  let(:random_number) { "10434911" }
+  subject(:bank) { described_class.new }
+  let(:name) { 'Joe Bloggs' }
+  let(:random_number) { '10434911' }
   let(:account1) { double :account, name: name, number: random_number }
-
 
   it 'can create an account and add it to the accounts array' do
     bank.create_account(name, random_number)

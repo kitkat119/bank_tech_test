@@ -1,8 +1,8 @@
 describe Account do
   subject(:account) { described_class.new(name, account_number) }
   let(:amount) { 50 }
-  let(:name) { "Joe Bloggs"}
-  let(:account_number) { "1234567" }
+  let(:name) { 'Joe Bloggs' }
+  let(:account_number) { '1234567' }
   let(:arbitrary_number) { 100 }
 
   it 'belongs to a person' do
@@ -23,10 +23,10 @@ describe Account do
 
   it 'can have money withdrawn from it' do
     account.deposit_money(amount)
-    expect{account.withdraw_money(amount)}.to change { account.balance }.by(-amount)
+    expect { account.withdraw_money(amount) }.to change { account.balance }.by(-amount)
   end
 
   it 'prevents withdrawal if the balance is insufficient' do
-    expect{ account.withdraw_money(arbitrary_number) }.to raise_error "Insufficient funds"
+    expect{ account.withdraw_money(arbitrary_number) }.to raise_error 'Insufficient funds'
   end
 end
