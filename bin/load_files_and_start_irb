@@ -4,5 +4,7 @@ require 'irb'
 puts 'Loading files..'
 require './lib/bank.rb'
 require './lib/account.rb'
+require './lib/transaction.rb'
+require './lib/transactionList.rb'
 
 IRB.start
