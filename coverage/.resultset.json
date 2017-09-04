@@ -3,10 +3,18 @@
     "coverage": {
       "/Users/katdownes/Projects/bank_tech_test/spec/account_spec.rb": [
         1,
+        6,
+        3,
+        6,
+        6,
         null,
         1,
-        4,
-        3,
+        1,
+        null,
+        null,
+        1,
+        1,
+        null,
         null,
         1,
         1,
@@ -21,26 +29,31 @@
         null,
         null
       ],
-      "/Users/katdownes/Projects/bank_tech_test/lib/account.rb": [
+      "/Users/katdownes/Projects/bank_tech_test/spec/bank_spec.rb": [
         1,
         null,
-        1,
-        null,
-        1,
-        3,
-        null,
-        null,
-        1,
-        1,
+        4,
+        4,
+        4,
+        2,
         null,
         null,
         1,
         1,
+        1,
         null,
+        null,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
         null,
         null
       ]
     },
-    "timestamp": 1504535902
+    "timestamp": 1504543214
   }
 }

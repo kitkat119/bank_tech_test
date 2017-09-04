@@ -1,0 +1,8 @@
+#! /usr/bin/env ruby -w
+require 'irb'
+
+puts 'Loading files..'
+require './lib/bank.rb'
+require './lib/account.rb'
+
+IRB.start
