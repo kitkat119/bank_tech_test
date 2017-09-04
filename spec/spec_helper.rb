@@ -6,6 +6,7 @@ require 'bank'
 require 'account'
 require 'transaction'
 require 'transactionList'
+require 'statementPrinter'
 
 SimpleCov.formatter = SimpleCov::Formatter::MultiFormatter.new([
     SimpleCov::Formatter::Console,

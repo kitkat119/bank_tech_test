@@ -3,6 +3,7 @@ describe Account do
   let(:amount) { 50 }
   let(:name) { "Joe Bloggs"}
   let(:account_number) { "1234567" }
+  let(:arbitrary_number) { 100 }
 
   it 'belongs to a person' do
     expect(account.name).to eq(name)

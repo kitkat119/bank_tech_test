@@ -6,5 +6,6 @@ require './lib/bank.rb'
 require './lib/account.rb'
 require './lib/transaction.rb'
 require './lib/transactionList.rb'
+require './lib/statementPrinter.rb'
 
 IRB.start
