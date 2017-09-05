@@ -8,5 +8,6 @@ require './lib/transaction.rb'
 require './lib/transaction_list.rb'
 require './lib/statement.rb'
 require './lib/printer.rb'
+require './lib/account_list.rb'
 
 IRB.start

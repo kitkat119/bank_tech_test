@@ -1,10 +1,12 @@
 # Bank
 
-A practice tech test, in which I have practiced OOP and TTD. Test coverage is currently 100%. I have used the Single Responsibility Principle when breaking down the classes, as follows:
+A practice tech test, in which I have practiced OOP and TTD. I have used the Single Responsibility Principle when breaking down the classes, as follows:
 
 __account__    - holds the balance and accepts deposits and withdrawals of money
 
-__bank__    - allows creation of an account and stores all accounts. Lets the customer find their account in order to deposit/withdraw money and then request a statement.
+__accountList__   - stores the new accounts to its array and finds specific elements of that array
+
+__bank__    - allows creation of an account, lets the customer find their account in order to deposit/withdraw money and also request a statement.
 
 __printer__    - prints the statement       
 
@@ -34,7 +36,6 @@ To test:
 ```
 rspec
 ```
-
 
 ## Specification
 
