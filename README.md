@@ -1,6 +1,18 @@
-# bank_tech_test
+# Bank
 
-A practice tech test, in which I have practiced OOP and TTD.
+A practice tech test, in which I have practiced OOP and TTD. Test coverage is currently 100%. I have used the Single Responsibility Principle when breaking down the classes, as follows:
+
+__account__    - holds the balance and accepts deposits and withdrawals of money
+
+__bank__    - allows creation of an account and stores all accounts. Lets the customer find their account in order to deposit/withdraw money and then request a statement.
+
+__printer__    - prints the statement       
+
+__statement__    - holds the information contained in the statement
+
+__transaction__    - holds information about each transaction
+
+__transactionList__    - contains all instances of transaction
 
 To use the program, enter the following in the command line:
 
@@ -9,21 +21,19 @@ git clone https://github.com/kitkat119/bank_tech_test
 cd bank_tech_test
 bundle
 ./bin/load_files_and_start_irb
-bank = Bank.new
-bank.create_account("Joe Bloggs")
-myAccount = bank.find_account("Joe Bloggs")
-myAccount.balance #to check your balance
-myAccount.deposit_money(100)
-myAccount.withdraw_money(25)
-bank.print_statement(myAccount)
+bank = Bank.new   #creates the bank
+bank.create_account("Joe Bloggs")   #create your account using your name
+myAccount = bank.find_account("Joe Bloggs")   #find your account
+myAccount.balance   #check your balance    
+myAccount.deposit_money(100)    #use to deposit money into your account
+myAccount.withdraw_money(25)    #use to withdraw money from your account
+bank.request_statement(myAccount)   #get a statement of all your transactions
 ```
 
 To test:
 ```
 rspec
 ```
-
-Test coverage is currently 100% :)
 
 
 ## Specification

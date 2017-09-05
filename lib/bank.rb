@@ -17,8 +17,6 @@ class Bank
   end
 
   def request_statement(account = @customers_account)
-    # @statement.new(account).print_transactions
     @printer.new(@statement.new(account)).print_statement
-
   end
 end
