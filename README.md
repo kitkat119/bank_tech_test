@@ -2,21 +2,23 @@
 
 A practice tech test, in which I have practiced OOP and TTD. I have used the Single Responsibility Principle when breaking down the classes, as follows:
 
-__account__    - holds the balance and accepts deposits and withdrawals of money
+__Account__    - holds the balance and accepts deposits and withdrawals of money
 
-__accountList__   - stores the new accounts to its array and finds specific elements of that array
+__AccountList__   - stores the new accounts to its array and finds specific elements of that array
 
-__bank__    - allows creation of an account, lets the customer find their account in order to deposit/withdraw money and also request a statement.
+__Bank__    - allows creation of an account, lets the customer find their account in order to deposit/withdraw money and also request a statement.
 
-__printer__    - prints the statement       
+__Printer__    - prints the statement       
 
 __statement__    - holds the information contained in the statement
 
-__transaction__    - holds information about each transaction
+__Transaction__    - holds information about each transaction
 
-__transactionList__    - contains all instances of transaction
+__TransactionList__    - contains all instances of transaction
 
-To use the program, enter the following in the command line:
+#### To use:
+
+Enter the following in the command line:
 
 ```
 git clone https://github.com/kitkat119/bank_tech_test
@@ -32,10 +34,12 @@ myAccount.withdraw_money(25)    #use to withdraw money from your account
 bank.request_statement(myAccount)   #get a statement of all your transactions
 ```
 
-To test:
+#### To test:
+Enter in the command line:
 ```
 rspec
 ```
+You should see:
 ![alt tag](https://user-images.githubusercontent.com/26767598/30070507-9134c1ec-925b-11e7-8320-19efd373bacf.png)
 
 
