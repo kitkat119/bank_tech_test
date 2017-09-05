@@ -10,7 +10,7 @@ __Bank__    - allows creation of an account, lets the customer find their accoun
 
 __Printer__    - prints the statement       
 
-__statement__    - holds the information contained in the statement
+__Statement__    - holds the information contained in the statement
 
 __Transaction__    - holds information about each transaction
 
@@ -40,6 +40,7 @@ Enter in the command line:
 rspec
 ```
 You should see:
+
 ![alt tag](https://user-images.githubusercontent.com/26767598/30070507-9134c1ec-925b-11e7-8320-19efd373bacf.png)
 
 
