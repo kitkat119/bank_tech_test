@@ -1,12 +1,11 @@
 class Bank
   attr_reader :accounts, :customers_account
 
-  def initialize(statement_class = Statement, printer_class = Printer, accountList = AccountList.new)
-    # @accounts = []
+  def initialize(statement_class = Statement, printer_class = Printer, accountList_class = AccountList)
     @statement = statement_class
     @customers_account = ''
     @printer = printer_class
-    @accountList = accountList
+    @accountList = accountList_class.new
   end
 
   def create_account(name)

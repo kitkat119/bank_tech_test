@@ -1,12 +1,9 @@
 describe Bank do
-  subject(:bank) { described_class.new(accountList) }
+  subject(:bank) { described_class.new }
   let(:name) { 'Joe Bloggs' }
-  let(:printer) { double :printer }
   let(:account1) { double :account, name: name, list: transactionList }
   let(:transaction) { double :transaction, date: '09/04/17', method: 'credit', amount: 200, balance: 200 }
   let(:transactionList) { double :transactionList, transactions: [transaction] }
-  let(:accountList) { double :accountList, accounts: [account1] }
-  let(:customersAccount) { account1 }
 
   it 'can create an account' do
     expect_any_instance_of(AccountList).to receive(:add_account)
