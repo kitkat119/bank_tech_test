@@ -5,7 +5,8 @@ puts 'Loading files..'
 require './lib/bank.rb'
 require './lib/account.rb'
 require './lib/transaction.rb'
-require './lib/transactionList.rb'
-require './lib/statementPrinter.rb'
+require './lib/transaction_list.rb'
+require './lib/statement.rb'
+require './lib/printer.rb'
 
 IRB.start

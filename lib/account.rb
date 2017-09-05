@@ -1,10 +1,9 @@
 class Account
-  attr_reader :balance, :name, :number, :list
+  attr_reader :balance, :name, :list
 
-  def initialize(name, account_number, transactionList_class = TransactionList)
+  def initialize(name, transactionList_class = TransactionList)
     @balance = 0
     @name = name
-    @number = account_number
     @list = transactionList_class.new
   end
 

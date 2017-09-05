@@ -7,7 +7,7 @@ To use the program, enter the following in the command line:
 ```
 git clone https://github.com/kitkat119/bank_tech_test
 cd bank_tech_test
-irb
+bundle
 ./bin/load_files_and_start_irb
 bank = Bank.new
 bank.create_account("Joe Bloggs")
@@ -20,9 +20,6 @@ bank.print_statement(myAccount)
 
 To test:
 ```
-git clone https://github.com/kitkat119/bank_tech_test
-cd bank_tech_test
-bundle
 rspec
 ```
 
