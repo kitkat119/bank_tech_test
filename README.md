@@ -39,10 +39,6 @@ Enter in the command line:
 ```
 rspec
 ```
-You should see:
-
-![alt tag](https://user-images.githubusercontent.com/26767598/30070507-9134c1ec-925b-11e7-8320-19efd373bacf.png)
-
 
 ## Specification
 

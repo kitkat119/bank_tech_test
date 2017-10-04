@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/katdownes/Projects/bank_tech_test/spec/account_list_spec.rb": [
+      "/Users/kdownes/MakersAcademy/Projects/bank_tech_test/spec/account_list_spec.rb": [
         1,
         3,
         1,
@@ -21,7 +21,7 @@
         null,
         null
       ],
-      "/Users/katdownes/Projects/bank_tech_test/spec/account_spec.rb": [
+      "/Users/kdownes/MakersAcademy/Projects/bank_tech_test/spec/account_spec.rb": [
         1,
         6,
         3,
@@ -50,7 +50,7 @@
         null,
         null
       ],
-      "/Users/katdownes/Projects/bank_tech_test/spec/bank_spec.rb": [
+      "/Users/kdownes/MakersAcademy/Projects/bank_tech_test/spec/bank_spec.rb": [
         1,
         4,
         4,
@@ -74,7 +74,7 @@
         null,
         null
       ],
-      "/Users/katdownes/Projects/bank_tech_test/spec/printer_spec.rb": [
+      "/Users/kdownes/MakersAcademy/Projects/bank_tech_test/spec/printer_spec.rb": [
         1,
         2,
         2,
@@ -89,7 +89,7 @@
         null,
         null
       ],
-      "/Users/katdownes/Projects/bank_tech_test/spec/statement_spec.rb": [
+      "/Users/kdownes/MakersAcademy/Projects/bank_tech_test/spec/statement_spec.rb": [
         1,
         2,
         2,
@@ -105,7 +105,7 @@
         null,
         null
       ],
-      "/Users/katdownes/Projects/bank_tech_test/spec/transaction_list_spec.rb": [
+      "/Users/kdownes/MakersAcademy/Projects/bank_tech_test/spec/transaction_list_spec.rb": [
         1,
         3,
         2,
@@ -124,6 +124,6 @@
         null
       ]
     },
-    "timestamp": 1504626957
+    "timestamp": 1507136969
   }
 }
